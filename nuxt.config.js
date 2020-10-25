@@ -59,6 +59,9 @@ export default {
     '@nuxt/content',
     '@nuxtjs/sitemap'
   ],
+  sitemap: {
+    hostname: 'https://example.com'
+  },
   /*
    ** Content module configuration
    ** See https://content.nuxtjs.org/configuration
